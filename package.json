@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-fundamentals",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurdedeus/nodejs-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurdedeus/nodejs-fundamentals/issues"
+  },
+  "homepage": "https://github.com/arthurdedeus/nodejs-fundamentals#readme"
+}
