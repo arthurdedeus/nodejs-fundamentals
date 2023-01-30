@@ -20,10 +20,11 @@ const server = http.createServer((req, res) => {
     users.push(user)
     return res
     .setHeader('Content-Type', 'application/json')
+    .writeHead(201)
     .end(JSON.stringify(user))
   }
 
-  return res.end('Hello World')
+  return res.writeHead(404).end()
 })
 
 server.listen(3333)
